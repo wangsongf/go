@@ -20,7 +20,7 @@ func main() {
     //dsn 数据源名称  
     //user:password@tcp([de:ad:be:ef::ca:fe]:80)/dbname?charset=utf8mb4,utf8  
   
-    db, err := sql.Open("mysql", "root:@tcp(127.0.0.1:3306)/laravel5?charset=utf8")
+    db, err := sql.Open("mysql", "root:root@tcp(127.0.0.1:3306)/laravel5?charset=utf8")
     checkErr(err)
 
     /**

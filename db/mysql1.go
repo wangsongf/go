@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-    db, err := sql.Open("mysql", "root:fnaU2lQw@tcp(127.0.0.1:3306)/web?charset=utf8")
+    db, err := sql.Open("mysql", "root:root@tcp(127.0.0.1:3306)/web?charset=utf8")
     checkErr(err)
 
     //插入数据
