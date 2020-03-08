@@ -79,4 +79,7 @@ func main(){
     s10 := []string{"hello","this","is","new"}
     s10 = append(s8,s9...)
     fmt.Println(s10)
+    for k,v := range s10 {
+        fmt.Println("s10[",k,"]=",v)
+    }
 }

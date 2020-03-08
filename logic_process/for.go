@@ -25,9 +25,5 @@ func main() {
 		sum += sum
 	}
 	fmt.Println("sum:", sum) // sum: 1024
-	
-	//无限循环
-	for {
-	
-    }
+
 }

@@ -11,5 +11,8 @@ func main() {
     } else {
         fmt.Println(3)
     }
+    if i := 7; i < 1 {
+        fmt.Println(1)
+    }
 
 }
